@@ -9,7 +9,7 @@ It's developed based on the sample code provided in the [official documentation]
 git clone https://github.com/miurla/gen-ui-demo
 ```
 
-2. Go to the project holder
+2. Go to the project folder
 
 ```bash
 cd gen-ui-demo
