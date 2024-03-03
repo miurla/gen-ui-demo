@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a straightforward demonstration that utilizes [Vercel AI SDK v3.0](https://github.com/vercel/ai) to implement Generative UI.
+It's developed based on the sample code provided in the [official documentation](https://sdk.vercel.ai/docs/concepts/ai-rsc).
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/miurla/gen-ui-demo
+```
+
+2. Go to the project holder
+
+```bash
+cd gen-ui-demo
+```
+
+3. Install packages
+
+```bash
+pnpm install
+```
+
+4. Setup your .env.local file. And set your own OpenAI API Key.
+
+```bash
+cp .env.example .env.local
+```
+
+5. Run the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Generative UI, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Read the blog post](https://vercel.com/blog/ai-sdk-3-generative-ui)
+- [Visit the docs](https://sdk.vercel.ai/docs/concepts/ai-rsc)
+- [Generative UI Demo](https://github.com/vercel/ai/tree/main/examples/next-ai-rsc)
